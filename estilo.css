@@ -1,0 +1,13 @@
+@font-face 
+{
+    font-family:"KiwiMaru-Regular";
+    src: url("KiwiMaru-Regular.ttf");
+    font-family:"Redressed-Regular";
+    src: url("Redressed-Regular.ttf");    
+}
+*
+{
+   font-family: "kiwimaru_regular";
+    background-color: #185EC4;
+    color: #fff
+}
