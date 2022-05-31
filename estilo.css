@@ -5,11 +5,13 @@
     font-family:"Redressed-Regular";
     src: url("Redressed-Regular.ttf");    
 }
-*
+*  /* Ajuistes Generales*/
 {
    font-family: "kiwimaru_regular";
     background-color: #185EC4;
-    color: #fff
+    color: #fff;
+    margin: 0.5vw;
+    padding: 0.5vw;
 }
 h1
 {
@@ -33,9 +35,23 @@ p
     font-size: 2vw;
     padding: 1vw;
     margin: 1vw;
+   
+
 }
 strong
 {
     color: #E16156;
+    padding: 0.1vw;
+    margin: 0.1vw;
     text-decoration: underline;
+} 
+.Enlaces
+{
+    padding: 1vw;
+    margin: 1vw;
+    font-size: 1.5vw; 
+}
+a
+{
+ color: #D8C119;   
 }
