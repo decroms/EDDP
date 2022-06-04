@@ -59,3 +59,7 @@ a
 {
     overflow: scroll;
 }
+li 
+{
+    display: inline;
+}
