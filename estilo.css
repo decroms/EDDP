@@ -11,7 +11,7 @@
     background-color: #185EC4;
     color: #fff;
     margin: 0.5vw;
-    padding: 0.5vw;
+    padding: 0.5vw;    
 }
 h1
 {
@@ -49,7 +49,7 @@ strong
 {
     padding: 1vw;
     margin: 1vw;
-    font-size: 1.5vw; 
+    font-size: 1.5vw;
 }
 a
 {
@@ -62,4 +62,11 @@ a
 li 
 {
     display: inline;
+border-width: 0.2vw;
+border-style: solid;
+border-color: #E16156;
+box-shadow: 0.2vw 0.2vw 0vw 0vw; 
 }
+
+
+
