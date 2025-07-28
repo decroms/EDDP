@@ -1,0 +1,50 @@
+* {
+    background-color: #333;
+    color: white;
+    padding: 0.5em;
+    margin: 0.5em;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 3em;
+    font-style: italic;
+    color: rgb(0, 0, 255);
+}
+
+.subtitulo {
+    font-size: 2em;
+    font-style: italic;
+    color: rgb(0, 0, 255);
+}
+
+.nav-link {
+    color: rgb(255, 38, 38);
+    text-decoration: underline;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    float: left;
+}
+
+.torneos-lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.jugadores-lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.torneo-tipo {
+    color: rgb(4, 248, 166);
+}
+
+.jugadores-tipo {
+    color: rgb(4, 248, 166);
+}
