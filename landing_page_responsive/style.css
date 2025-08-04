@@ -1,3 +1,6 @@
+/* proyectos web - landing_page_responsive/style.css */
+
+/* Estilos generales para la página de aterrizaje responsive */
 * {
     background-color: #333;
     color: white;
@@ -6,6 +9,7 @@
     text-align: center;
 }
 
+/* Titulo, Subtitulo y enlaces de navegación */
 .titulo {
     font-size: 3em;
     font-style: italic;
@@ -23,6 +27,7 @@
     text-decoration: underline;
 }
 
+/*Logo, Listas y Parrafos*/
 .logo {
     width: 150px;
     height: auto;
@@ -65,7 +70,13 @@
     margin: 1em;
     padding: 0.5em;
 }
+/* Estilos para la sección de importancia y Barra moviles*/
+
 .importancia {
     color: rgb(255, 215, 0);
     font-style: italic;
+}
+
+.mobile-nav {
+    display: none;
 }
