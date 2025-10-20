@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 80px;
+    padding: 25px;
+    padding-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    padding-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    padding: 200px;
+}
+
+.inicio{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+p {
+    font-size: 20px;
+}
+
+.imginicio {
+    height: 750px;
+    width: 500px;
+}
+
+.paleta {
+    width: 250px;
+}
+
+.plan_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+#planes, #ubicaciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contenedor_planes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.plan_basico, .plan_intermedio, .plan_pro {
+    width: 400px;
+    height: 700px;
+    border-radius: 20px;
+    color: #121212;
+    background-color: #FFFFFF;
+    
+}
+
+.info_planes {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.boton {
+    background-color: #FE7C45;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: auto;
+}
+
+#contacto {
+    padding: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tarjeta_contacto {
+    background-color: #272626;
+    width: 500px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px; 
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border-radius: 10px;
+    width: 400px;
+    padding: 10px;
+    margin: 5px; 
+    font-family: 'Montserrat';
+    font-weight: 600; 
+    border:#272626;
+}
+
+.msj {
+    height: 100px;
+}
+
+.contactimg {
+    width: 750px; 
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; 
+}
+
+button {
+    background-color: #FE7C45;
+    color: #FFFFFF;
+    width: 150px;
+    border: #272626;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    margin: 5px;
+}
+
+.linea {
+    width: 430px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.salinas, .iglesia, .hogar_hungaro, .parque_delplata{
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    color: #121212;
+    background-color: #FFFFFF;
+}
+
+.info_ubicaciones{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor_ubicaciones {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    justify-content: center;
+}
+
+li{
+    font-size: 18px;
+    padding: 5px;
+}
+
+.horarios{
+    height: 1px;
+}
+
+.arriba{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.abajo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+footer {
+    padding: 50px;
+    height: 200px;
+    background-color: #272626;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_footer{
+    font-size: 16px;
+    width: 300px;
+    margin: 30px;
+    text-align: center;
+}
+
+.sedes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footerb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.redes_sociales {
+    width: 680px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.imgi {
+    width: 30px;
+    height: 30px;
+}
+
+.imgt{
+    width: 40px;
+    height: 40px;
+}
+
+.imgf{
+    width: 35px;
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
